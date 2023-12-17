@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <style>
+             body{
+                background-image: url(signup-image.png);
+                background-repeat: no-repeat;
+                background-position: 93% 400px;
+                background-size: 500px 300px;
+            }
+            div.signup-image{
+                width:230px;
+                height:230px;
+                position: absolute;
+                margin-top: 20px;
+                margin-left: 23%;
+                background-image: url(signup-image1.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+            }
+        </style>
+    </head>
+    <body style="background-color: whitesmoke;">
+        <header>
+            <a class="head" href="homepage.html">
+                <img class=logo src="logo.png" width="47px" height="47px">
+                <div class="logoname">Pet Adoption</div>
+            </a>
+
+
+            <table cellpadding="15">
+                <tr>
+                    <td><a class="head" href="homepage.html">Home</a></td>
+                    <td><a class="head" href="">About</a></td>
+                    <td><a class="head" href="">Feedback</a></td>
+                    <td><a class="head" href="login.html">Login</a></td>
+                </tr>
+            </table>
+        </header>
+        <div class="signup-image"></div>
+        <div class="signup">
+            <form method="post"> 
+                <img class="logo-white" src="logo-white.png" width="70px" height="70px">   
+                <h1>Sign up </h1>   
+                <p class="cen">
+                    <input type="text" name="uname" class="box" required placeholder="Username"><br><br>                    
+                    <input type="password" name="pwd" class="box" required placeholder="Password"><br><br>
+                    <input type="tel" name="mob" class="box" required placeholder="Mobile no."><br><br>
+                    <input type="email" name="mail" class="box" required placeholder="Email"><br><br>
+                    <input type="text" name="location" class="box" required placeholder="Location"><br><br>                  
+                    <input type="submit" class="btn" name="submit" value="Sign up"><br>
+                </p>
+               
+            </form>
+           <p class="cen">Already have an account? <a href="login.html" class="link"> Sign in</a></p>
+        </div>
+    </body>
+</html>
