@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.website-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.modify-page-heading {
+    color: #005fd9;
+    font-family: "calibri";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.bg {
+    height: 100vh;
+    padding-top: 70px;
+}
+
+
+.sign-in-bg {
+    background-color: #f2f2f2;
+    height: 450px;
+    width: 550px;
+    border-radius: 60px;
+    margin: auto;
+}
+
+
+
+
+
+.username-input {
+    border-color: #005fd9;
+    background-color: #f2f2f2;
+    width: 450px;
+    height: 45px;
+    border-radius: 12px;
+    border-width: 1.9px;
+    border-style: solid;
+    padding: 20px;
+    font-family: "calibri";
+}
+
+::-webkit-input-placeholder {
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+
+
+.modify-btn {
+    width: 34%;
+    height: 38px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #005fd9;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "calibri";
+}
+
+
+
+
+
+
+input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 40px;
+    top: 7px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus+i {
+    color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus+i {
+    color: #fff;
+    background-color: dodgerBlue;
+}

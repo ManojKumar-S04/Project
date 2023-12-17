@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.website-logo-img {
+    width: 60px;
+    height: 50px;
+}
+
+.navbar-bg {
+    background-color:#0070F3;
+}
+
+.acc-img {
+    width: 36px;
+    height: 36px;
+}
+
+#navlink1 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink2 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink3 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink4 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+
+.home-bg-cont {
+    background-image: url('https://res.cloudinary.com/dwcp6zcbi/image/upload/v1696405401/home-section-bg_g6xdaq_t1voim.png');
+    height: 100vh;
+
+    background-repeat: no-repeat;
+}
+
+.home-sec-login-btn {
+    background-color: #ff85b1;
+    border-width: 0px;
+    height: 50px;
+    width: 100px;
+    font-family: "calibri";
+    font-size: 24px;
+    font-weight: bold;
+    color: #Ffffff;
+    border-radius: 8px;
+    margin-left: 875px;
+    margin-top: 400px;
+}
+
+.home-sec-bottom {
+    background-color: #ffffff;
+    height: 10px;
+}
+
+.service-sec-bg {
+    background-color: #f2f2f2;
+}
+
+.service-sec-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    
+
+}
+.service-sec-card:hover, .contact-sec-card:hover
+{
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+.service-section-img {
+    width: 600px;
+}
+
+
+.about-sec-bg {
+    background-image: url('https://res.cloudinary.com/dwcp6zcbi/image/upload/v1696153523/about-sec-bg-mg_s46wxr.png');
+    padding-top: 40px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.about-sec-card {
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    margin-top: 340px;
+    border-radius: 160px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),inset -4px -4px 10px white;
+}
+
+.about-sec-bottom {
+    background-color: #c9c4e8;
+    height: 30vh;
+}
+
+.contact-sec-bg-cont {
+    height: 100vh;
+
+    margin: auto;
+    background-image: url("https://res.cloudinary.com/dwcp6zcbi/image/upload/v1696216571/contact-sec-bg_ekfpmf.png");
+    background-repeat: no-repeat;
+    background-size: 70%, 70%;
+    background-position: top center;
+
+}
+
+.contact-sec-card {
+    height: 220px;
+    width: 220px;
+    margin-top: 400px;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(66, 64, 64);
+
+}
+
+.footer-bg {
+    background-color:#0070F3;
+    height: 45px;
+    color: #dcdcdc;
+    cursor: pointer;
+
+}
+
+.footer-text {
+    font-size: 20px;
+    font-family: "calibri";
+}
+
+.features-img {
+    height: 76px;
+    width: 76px;
+}
+
+.features-text {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "calibri";
+    text-align:center;
+    color:black;
+}

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.website-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-bg {
+    background-image: linear-gradient(to right, #0072f5, #0056c6);
+}
+
+.acc-img {
+    width: 36px;
+    height: 36px;
+}
+
+#navlink1 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink2 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink3 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#navlink4 {
+    color: white;
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+
+.sign-up-page-logo {
+    width: 120px;
+    height: 100px;
+}
+
+.sign-up-bg-container {
+    height: 100vh;
+    padding-top: 70px;
+}
+
+
+.sign-up-bg {
+    background-color: #f2f2f2;
+    height: 550px;
+    width: 640px;
+    border-radius: 60px;
+    margin: auto;
+}
+
+.footer-bg {
+    background-image: linear-gradient(to right, #0072f5, #0056c6);
+    height: 45px;
+    color: #dcdcdc;
+
+}
+
+.footer-text {
+    font-size: 20px;
+    font-family: "calibri";
+}
+
+.sign-up-user-passw-field {
+    border-color: #005fd9;
+    background-color: #f2f2f2;
+    width: 280px;
+    height: 44px;
+    border-radius: 12px;
+    border-width: 1.9px;
+    border-style: solid;
+    padding-left: 40px;
+    font-family: "calibri";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.sign-up-mail-phone-field {
+    border-color: #005fd9;
+    background-color: #f2f2f2;
+    width: 571px;
+    height: 44px;
+    border-radius: 12px;
+    border-width: 1.9px;
+    border-style: solid;
+    padding-left: 40px;
+    font-family: "calibri";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.gender-input-cont {
+    margin-left: 82px;
+}
+
+.cross-gender-input-cont {
+    margin-left: 74px;
+}
+
+.youare-inupt-cont {
+    margin-left: 32px;
+}
+
+.sign-up-page-you-are-text {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.sign-up-gender-employee-text {
+    font-weight: bold;
+    font-family: "calibri";
+    font-size: 22px;
+    margin-left: 44px;
+}
+
+.sign-up-btn {
+    width: 62%;
+    height: 38px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #005fd9;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "calibri";
+}
+
+.sign-up-bottom-text {
+    font-weight: 500;
+    font-family: "calibri";
+    font-size: 22px;
+}
+
+.sign-in-text {
+    color: #005fd9;
+    font-family: "calibri";
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+
+
+/*.inputWithIcon input[type="text"] {
+    padding-left: 200px;
+}*/
+
+
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+
+}
+
+.mail-phone-icon {
+    text-indent: 17px;
+
+}
+
+.inputWithIcon input[type="text"]:focus+i,
+input[type="password"]:focus+i,
+input[type="email"]:focus+i {
+    color: dodgerBlue;
+}
+
+:focus {
+    border-color: #005fd9;
+    box-shadow: 0 0 8px 0 #005fd9;
+}

@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Side Nav Features</title>
+    </head>
+    <style>
+        *
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        div.sidenav
+        {
+           
+            height:650px;
+            background-image: linear-gradient(to right,rgb(194, 194, 194),#f2f2f2c0);
+         
+            align-items: center;
+        }
+        div.spending
+        {
+           
+            height:108px;
+            border-bottom-color: white;
+            border-bottom: 20px;
+            text-align: center;  
+        }
+        div.spending:hover{
+            scale: 1.2;
+        }
+        hr
+        {
+            height:5px;
+            background-color:white;
+            border:none;
+        }
+        div.spending img
+        {
+           margin-top:10px;
+        }
+        div.spending text
+        { 
+             font-weight: bold;   
+        }
+        a:hover, a:visited, a:link
+        {
+            text-decoration:none;
+            color:black;
+        }
+        
+        
+    </style>
+    <body>
+        <div class="sidenav">
+            <div class="spending">
+                <a href="Spending.php" target="HomeMain">
+                    <img src="LogoSpending.png" width="50" height="50"><br>
+                    <text>SPENDING</text>
+                    <hr>
+                </a>     
+                
+            </div>
+            <div class="spending">
+                <a href="TransactionExpense.php" target="HomeMain">
+                    <img src="LogoTransaction.png" width="50" height="50"><br>
+                    <text>TRANSACTION</text>
+                    <hr>
+                </a>
+                
+            </div>
+            <div class="spending">
+                <a href="TrackingExpensePie.php" target="HomeMain">
+                    <img src="LogoTracking.png" width="50" height="50"><br>
+                    <text>TRACKING</text>
+                    <hr>
+                </a>
+                
+            </div>
+            <div class="spending">
+                <a href="CategoryExpense.php" target="HomeMain">
+                    <img src="LogoCategory.png" width="50" height="50"><br>
+                    <text>CATEGORY</text>
+                    <hr>
+                </a>
+                
+            </div>
+            <div class="spending">
+                <a href="Queries.php" target="HomeMain">
+                    <img src="LogoQueries.png" width="50" height="50"><br>
+                    <text>QUERIES</text>
+                    <hr>
+                </a>
+                
+            </div>
+            <div class="spending">
+                <a href="Profile.php" target="HomeMain">
+                    <img src="LogoProfileBlack.png" width="50" height="50"><br>
+                    <text>PROFILE</text>
+                </a>
+            </div>
+        </div>
+        
+    </body>
+</html>
